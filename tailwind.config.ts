@@ -8,9 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        hoper: ['Hoper Begin', 'sans-serif'],
+        futura: ['Futura Std', 'sans-serif'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        transparent: "transparent",
+        white: "#EAE9E8",
+        black: "#083C35",
+        orange: "#EA5C1F",
       },
     },
   },

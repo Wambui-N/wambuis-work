@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Head from "next/head";
+import Navbar from "@/components/layout/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,9 +27,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link
+          href="https://fonts.cdnfonts.com/css/hoper-begin"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.cdnfonts.com/css/futura-std-4"
+          rel="stylesheet"
+        />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
