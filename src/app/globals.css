@@ -24,7 +24,7 @@
 
 @layer utilities {
   .logo {
-    @apply font-hoper;
+    @apply font-hoper text-4xl;
   }
 
   .responsive {

@@ -1,16 +1,16 @@
-'use client'
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import clsx from 'clsx';
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import clsx from "clsx";
 
 interface NavlinkProps {
   path: string;
   label: string;
-}
+  onClick?: () => void;}
 
-const Navlink = ({ path, label }: NavlinkProps) => {
+const Navlink = ({ path, label, onClick }: NavlinkProps) => {
   const pathname = usePathname();
   const [isActive, setIsActive] = useState(false);
 
@@ -21,10 +21,11 @@ const Navlink = ({ path, label }: NavlinkProps) => {
   return (
     <Link
       href={path}
-      className={clsx('py-[1px]', {
-        'border-b-2 border-black': isActive,
+      onClick={onClick}
+      className={clsx("py-[1px]", {
+        "border-b-2 border-black": isActive,
       })}
-    //   TODO add hover animations
+      //   TODO add hover animations
     >
       {label}
     </Link>
