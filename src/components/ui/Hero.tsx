@@ -6,7 +6,7 @@ interface HeroProps {
 
 const Hero = ({ children }: HeroProps) => {
   return (
-    <div className="py-32 w-[60%]">
+    <div className="py-32 lg:w-[60%] w-[100%]">
       {children}
     </div>
   );
