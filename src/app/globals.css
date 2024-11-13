@@ -2,23 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  body{
+@layer base {
+  body {
     @apply font-futura text-black bg-white antialiased responsive;
   }
 }
 
-@layer components{
+@layer components {
   /* Navbar */
-
+  /* projects table */
+  th {
+    @apply text-left py-3 font-light;
+  }
+  td{
+    @apply py-3 font-medium;
+  }
 }
 
-@layer utilities{
+@layer utilities {
   .logo {
-    @apply font-hoper
+    @apply font-hoper;
   }
 
-  .responsive{
+  .responsive {
     @apply max-w-screen-xl mx-auto lg:px-48 md:px-10 px-4 pt-2;
   }
 }

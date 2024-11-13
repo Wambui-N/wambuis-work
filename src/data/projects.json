@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Vicwa",
+        "category": "Web Design, SEO, Automation",
+        "description": "A brief description of project one.",
+        "industy": "Plumbing",
+        "link": "https://vicwa.vercel.app/"
+    },
+    {
+        "id": 2,
+        "title": "African Plains Conservation Trust",
+        "category": "Web Design, SEO, Automation",
+        "description": "A brief description of project two.",
+        "industy": "NGO",
+        "link": "https://apct.vercel.app/"
+    },
+    {
+        "id": 3,
+        "title": "Baked",
+        "category": "Web Design, SEO, Automation",
+        "description": "A brief description of project one.",
+        "industy": "Food, E-commerce",
+        "link": "https://baked-silk.vercel.app/"
+    },
+    {
+        "id": 4,
+        "title": "Yamas",
+        "category": "Web Design, SEO, Automation",
+        "description": "A brief description of project one.",
+        "industy": "Restaurant",
+        "link": "https://yamas-seven.vercel.app/"
+    }
+]
