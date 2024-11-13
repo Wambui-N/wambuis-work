@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Web Design",
+        "description": "My web designs combines creativity and strategy to make sure your website isn’t just visually appealing but also purpose-driven, guiding visitors toward meaningful engagement and conversion. With a focus on both aesthetics and effectiveness, we design websites that leave a lasting impact.",
+        "benefits": [
+            "Responsive design for all devices",
+            "Fast loading times",
+            "Optimized user experience",
+            "SEO-friendly structure",
+            "Custom designs tailored to your brand"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "SEO",
+        "description": "A beautiful website is only effective if people can find it. Without SEO, you’ll be is missing out on a massive opportunity to be seen by potential customers. I focus on driving organic traffic to your website by optimizing it for search engines, ensuring you rank higher, get discovered, and attract more leads.",
+        "benefits": [
+            "Keyword research and optimization",
+            "On-page and off-page SEO strategies",
+            "Technical SEO improvements",
+            "Improved website ranking and traffic",
+            "Regular SEO performance reports"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Automations",
+        "description": "Your website is more than just an online presence—it’s a reflection of your brand. I will craft custom websites that are visually appealing, responsive, and optimized for user experience. We’ll collaborate closely, to understand your needs, ensuring that every design element aligns with your brand’s identity and objectives.",
+        "benefits": [
+            "Save time with automated workflows",
+            "Reduce human errors",
+            "Increase efficiency and productivity",
+            "Integration with popular tools (Slack, Trello, etc.)",
+            "Automated email marketing and lead nurturing"
+        ]
+    }
+]

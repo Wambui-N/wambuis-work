@@ -8,7 +8,7 @@ const HomeHero = () => {
         <Hero
         children={
           <div className="flex flex-col gap-4">
-            <h1 className="font-semibold text-8xl">
+            <h1>
               Hello,
               <br /> I&apos;m Wambui.
             </h1>
