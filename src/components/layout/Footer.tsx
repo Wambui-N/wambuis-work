@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <div className="py-32 flex flex-col gap-8">
-      <div className="flex flex-row">
+      <div className="flex lg:flex-row flex-col gap-3">
         <p className="basis-1/2">
           Interested in working together? I&apos;d love to hear from you. You
           can reach me via <InlineLink href="#" link="WhatsApp" />,{" "}
@@ -19,7 +19,7 @@ const Footer = () => {
           <InlineLink href="#" link="Call" />. Let&apos;s build something
           amazing together!
         </p>
-        <div className="basis-1/2 flex flex-col gap-2 items-end">
+        <div className="basis-1/2 flex flex-col gap-2 lg:items-end items-start">
           <p>Currently based: Nairobi and The Internet</p>
           <div className="flex flex-row gap-2">
             <Link href="#">

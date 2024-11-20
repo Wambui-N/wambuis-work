@@ -8,7 +8,7 @@ interface inlineLinkProp {
 
 const inlineLink = ({href, link}: inlineLinkProp) => {
   return (
-    <Link className='font-semibold hover:border-b hover:border-black' href={href}>{link}</Link>
+    <Link className='border-b border-black' href={href}>{link}</Link>
   )
 }
 

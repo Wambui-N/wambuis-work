@@ -28,6 +28,6 @@
   }
 
   .responsive {
-    @apply max-w-screen-xl mx-auto lg:px-48 md:px-10 px-4 pt-2;
+    @apply max-w-screen-2xl mx-auto lg:px-24 md:px-10 px-4 pt-2;
   }
 }

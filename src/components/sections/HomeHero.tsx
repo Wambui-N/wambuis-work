@@ -1,46 +1,41 @@
-import React from 'react'
-import InlineLink from '../ui/inlineLink'
-import Hero from '../ui/Hero'
+import React from "react";
+import InlineLink from "../ui/inlineLink";
+import Hero from "../ui/Hero";
 
 const HomeHero = () => {
   return (
     <div>
-        <Hero
+      <Hero
         children={
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 w-1/2">
             <h1>
               Hello,
               <br /> I&apos;m Wambui.
             </h1>
             <p>
-              I&apos;m a web designer who is{" "}
-              <InlineLink
-                href="/about"
-                link="passionate about creative expression and
-              practical problem-solving."
-              />{" "}
-              I strive to create stunning and hard working websites that draws
-              in customers, nurtures leads, and handles repetitive tasks
-              automatically—all while you focus on what you do best.
+              A Creative Developer that blends{" "}
+              <span className="font-semibold">
+                beautiful, user-centric design
+              </span>{" "}
+              with{" "}
+              <span className="font-semibold">smart business strategy</span> to
+              create websites that not only impress, but drive results. From{" "}
+              <span className="font-semibold">
+                attracting your ideal customers
+              </span>{" "}
+              to <span className="font-semibold">streamlining operations</span>,
+              I design websites that work hard for your business.
             </p>
             <p>
-              I help businesses turn their digital presence into a growth
-              engine. By blending strategic{" "}
-              <InlineLink href="/services" link="SEO" />, captivating{" "}
-              <InlineLink href="/services" link="Web Design" />, and smart{" "}
-              <InlineLink href="/services" link="Automation" />, I create
-              websites that don&apos;t just look great—they work hard for your
+              Curious how? <InlineLink href="#work" link="Check out my work" />{" "}
+              or <InlineLink href="/contact" link="let's chat" /> about your
               business.
-            </p>
-            <p>
-              Sound like the what you've been searching for?{" "}
-              <InlineLink href="/contact" link="Let's Chat!" />
             </p>
           </div>
         }
       />
     </div>
-  )
-}
+  );
+};
 
-export default HomeHero
+export default HomeHero;

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Vicwa",
-        "category": "Web Design, SEO, Automation",
+        "category": "Web Design, Automation",
         "description": "A brief description of project one.",
         "industy": "Plumbing",
         "link": "https://vicwa.vercel.app/"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "African Plains Conservation Trust",
-        "category": "Web Design, SEO, Automation",
+        "category": "Web Design, SEO",
         "description": "A brief description of project two.",
         "industy": "NGO",
         "link": "https://apct.vercel.app/"
