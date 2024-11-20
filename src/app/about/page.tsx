@@ -12,7 +12,11 @@ export default function About() {
           </h1>
         }
       />
-      <AboutSection />
+      <div className="w-full flex justify-center">
+        <div className="w-3/5">
+          <AboutSection />
+        </div>
+      </div>
     </div>
   );
 }
