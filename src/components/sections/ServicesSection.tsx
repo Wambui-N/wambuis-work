@@ -4,8 +4,8 @@ import services from '@/data/services.json';
 
 const Services = () => {
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full border-collapse">
+    <div className="">
+      {/* <table className="w-full border-collapse">
         <thead className="border-b border-black">
           <tr>
             <th className='w-1/4'>Service</th>
@@ -28,7 +28,7 @@ const Services = () => {
             </tr>
           ))}
         </tbody>
-      </table>
+      </table> */}
     </div>
   );
 };

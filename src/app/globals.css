@@ -9,6 +9,9 @@
   h1 {
     @apply font-semibold lg:text-8xl text-7xl pb-2;
   }
+  h4 {
+    @apply font-semibold text-4xl;
+  }
 }
 
 @layer components {
@@ -17,7 +20,7 @@
   th {
     @apply text-left py-3 font-light;
   }
-  td{
+  td {
     @apply py-3 font-medium align-top;
   }
 }
