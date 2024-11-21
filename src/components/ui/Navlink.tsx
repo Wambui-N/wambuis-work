@@ -23,7 +23,7 @@ const Navlink = ({ path, label, onClick }: NavlinkProps) => {
       href={path}
       onClick={onClick}
       className={clsx("py-[1px]", {
-        "border-b-2 border-black": isActive,
+        "border-b border-black": isActive,
       })}
       //   TODO add hover animations
     >

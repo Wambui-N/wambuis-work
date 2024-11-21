@@ -1,34 +1,33 @@
 [
     {
         "id": 1,
-        "title": "Vicwa",
+        "title": "Vicwa Plumbing Supplies And Solutions",
+        "slug": "vicwa",
+        "image": "/Vicwa Image.png",
         "category": "Web Design, Automation",
-        "description": "A brief description of project one.",
-        "industy": "Plumbing",
-        "link": "https://vicwa.vercel.app/"
-    },
-    {
-        "id": 2,
-        "title": "African Plains Conservation Trust",
-        "category": "Web Design, SEO",
-        "description": "A brief description of project two.",
-        "industy": "NGO",
-        "link": "https://apct.vercel.app/"
-    },
-    {
-        "id": 3,
-        "title": "Baked",
-        "category": "Web Design, SEO, Automation",
-        "description": "A brief description of project one.",
-        "industy": "Food, E-commerce",
-        "link": "https://baked-silk.vercel.app/"
-    },
-    {
-        "id": 4,
-        "title": "Yamas",
-        "category": "Web Design, SEO, Automation",
-        "description": "A brief description of project one.",
-        "industy": "Restaurant",
-        "link": "https://yamas-seven.vercel.app/"
+        "description": "I designed and developed a modern, SEO-optimized website for Vicwa, a plumbing supplies company, to help establish their online presence and improve lead generation with WhatsApp integration. Built using Next.js, Tailwind CSS, and hosted on Vercel, the site offers a user-friendly experience and sets the foundation for future growth.",
+        "industry": "Plumbing",
+        "link": "https://vicwa.vercel.app/",
+        "projectOverview": {
+            "projectGoal": "The client needed a professional website to establish an online presence, showcase his services, and make it easier for potential customers to reach him.",
+            "challenges": "Prior to this project, Vicwa had no digital presence. The primary challenge was to create a user-friendly site from scratch that effectively communicated his offerings while capturing leads directly."
+        },
+        "process": {
+            "designApproach": "I started by understanding the client’s needs and target audience. Given that the business focuses on plumbing supplies, I opted for a clean and straightforward design with a modern aesthetic. The color palette was kept neutral and professional to reflect the client's industry. I utilized Tailwind CSS to maintain consistency in design elements and responsiveness across devices.",
+            "seoStrategy": "To ensure Vicwa’s website would rank well in search engines, I conducted keyword research related to plumbing supplies and services. I implemented on-page SEO optimizations like meta tags, alt text for images, and a site structure optimized for search crawlers.",
+            "collaboration": "Throughout the project, I collaborated with Vicwa to refine the content and ensure it aligned with his brand vision. We focused on creating concise service descriptions and a contact section that would encourage potential customers to reach out.",
+            "challenges": "One of the challenges was integrating a lead capture system that would be simple yet effective. The solution was to connect a contact form directly to WhatsApp for instant communication, which required some custom coding to streamline the integration."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "leadCapture": "Integrated a custom form that sends leads directly to the client’s WhatsApp, ensuring immediate notifications for inquiries.",
+            "responsiveDesign": "The website was built using Next.js, hosted on Vercel, with a focus on fast loading speeds and a smooth user experience.",
+            "technologyStack": "Next.js, Tailwind CSS, and Vercel were used for development and deployment."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "As the site was launched recently, it’s still too early to measure significant metrics.",
+            "clientFeedback": "The client has provided positive feedback, especially appreciating the WhatsApp integration for lead capture.",
+            "analytics": "The website is fully optimized for SEO, which sets a solid foundation for future growth in organic traffic and customer engagement."
+        },
+        "testimonial": "clients testimonial"
     }
 ]
