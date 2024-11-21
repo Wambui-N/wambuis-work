@@ -25,9 +25,100 @@
         },
         "outcomeAndResults": {
             "successMetrics": "As the site was launched recently, it’s still too early to measure significant metrics.",
-            "clientFeedback": "The client has provided positive feedback, especially appreciating the WhatsApp integration for lead capture.",
             "analytics": "The website is fully optimized for SEO, which sets a solid foundation for future growth in organic traffic and customer engagement."
         },
         "testimonial": "clients testimonial"
+    },
+    {
+        "id": 2,
+        "title": "APCT Consultancy and Training Services",
+        "slug": "apct",
+        "image": "/Vicwa Image.png",
+        "category": "Web Design, Automation",
+        "description": "I designed and developed a sleek, SEO-optimized website for APCT, a consultancy and training services company, to establish their online presence and streamline client inquiries. Built using Next.js, Tailwind CSS, and hosted on Vercel, the website is user-friendly, fast, and helps connect the business with their audience effectively.",
+        "industry": "Consultancy and Training",
+        "link": "https://apct.vercel.app/",
+        "projectOverview": {
+            "projectGoal": "The client wanted a professional website to showcase their services, establish credibility, and make it easier for potential clients to contact them.",
+            "challenges": "APCT had no existing online presence. The main challenge was building a website that effectively communicated their services while ensuring seamless client interactions."
+        },
+        "process": {
+            "designApproach": "I adopted a professional and modern design approach, focusing on clean layouts and intuitive navigation to appeal to APCT’s target audience. Tailwind CSS was used to ensure design consistency and responsiveness.",
+            "seoStrategy": "Comprehensive keyword research was conducted to optimize the website for consultancy and training-related terms. On-page SEO strategies, including meta tags, structured data, and optimized images, were implemented to enhance visibility.",
+            "collaboration": "Collaborated closely with APCT to create content that aligned with their brand and clearly communicated their services. Their feedback guided design iterations to ensure the final product met their expectations.",
+            "challenges": "Integrating an effective contact system that aligned with the client’s preferred methods of communication was a key challenge, which was resolved through custom form and WhatsApp integration."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "leadCapture": "Integrated a contact form with automated email notifications and WhatsApp connectivity to ensure inquiries reached the client instantly.",
+            "responsiveDesign": "The website was built to be fully responsive, ensuring an optimal experience across all devices, from desktops to mobile phones.",
+            "technologyStack": "Built using Next.js, Tailwind CSS, and hosted on Vercel for efficient performance and scalability."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "The website has positioned APCT with a professional online presence. Though recently launched, it has already streamlined client inquiries and provided a foundation for further business growth.",
+            "analytics": "SEO groundwork has been laid, with optimizations in place to drive organic traffic over time."
+        },
+        "testimonial": "Client testimonial placeholder"
+    },
+    {
+        "id": 3,
+        "title": "Rawhew Ranch Kenya",
+        "slug": "rawhew-ranch-kenya",
+        "image": "/Vicwa Image.png",
+        "category": "Web Design, SEO, Automation",
+        "description": "Developed a comprehensive, SEO-optimized website for Rawhew Ranch Kenya, a campsite in Naivasha, to enhance their online presence and streamline booking processes. The site, built with Next.js and Tailwind CSS, offers detailed information on amenities, activities, and pricing, providing a user-friendly experience for potential visitors.",
+        "industry": "Hospitality and Tourism",
+        "link": "https://www.rawhewranchkenya.com/",
+        "projectOverview": {
+            "projectGoal": "To create an informative and engaging website that showcases Rawhew Ranch's offerings, attracts potential visitors, and facilitates easy communication and bookings.",
+            "challenges": "The client lacked a digital platform to present their services and engage with potential customers effectively."
+        },
+        "process": {
+            "designApproach": "Implemented a clean and inviting design reflecting the natural beauty of Naivasha and the ranch's serene environment. Utilized Tailwind CSS for a responsive and cohesive layout.",
+            "seoStrategy": "Conducted keyword research related to camping and tourism in Naivasha. Applied on-page SEO techniques, including optimized meta tags, descriptive alt texts, and structured content to improve search engine visibility.",
+            "collaboration": "Worked closely with Rawhew Ranch to gather detailed information about their services, amenities, and activities. Ensured the content accurately represented their offerings and aligned with their brand identity.",
+            "challenges": "Integrating a user-friendly booking inquiry system and presenting extensive information without overwhelming the user required careful planning and execution."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "leadCapture": "Integrated contact forms linked to the client's email and WhatsApp for prompt responses to inquiries.",
+            "responsiveDesign": "Ensured the website is fully responsive, providing an optimal viewing experience across various devices.",
+            "technologyStack": "Developed using Next.js for server-side rendering and fast performance, styled with Tailwind CSS, and deployed on Vercel for reliable hosting."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "Post-launch, the website has seen increased visitor engagement and inquiries, indicating a successful enhancement of the ranch's online presence.",
+            "clientFeedback": "The client expressed satisfaction with the website's aesthetic appeal, functionality, and the increase in customer interactions.",
+            "analytics": "Initial analytics show a positive trend in user engagement and time spent on the site, with expectations for continued growth as SEO efforts take effect."
+        },
+        "testimonial": "Client testimonial placeholder"
+    },
+    {
+        "id": 4,
+        "title": "Yamas Restaurant Website",
+        "slug": "yamas",
+        "image": "/Vicwa Image.png",
+        "category": "Web Design, UX Optimization",
+        "description": "Developed a visually stunning and user-friendly website for Yamas, a premium dining establishment, to showcase their menu, enhance reservations, and reflect their brand ethos. Built using modern web technologies, the platform offers an intuitive experience for customers to explore and engage with the restaurant online.",
+        "industry": "Hospitality and Dining",
+        "link": "https://yamas-seven.vercel.app/",
+        "projectOverview": {
+            "projectGoal": "To create an engaging online platform that captures the essence of Yamas' dining experience, allowing users to view the menu, make reservations, and connect with the restaurant.",
+            "challenges": "Ensuring the website's design and functionality aligned with Yamas’ premium branding while offering seamless user navigation and responsiveness."
+        },
+        "process": {
+            "designApproach": "Adopted a sleek and elegant design inspired by the restaurant's branding. Emphasized high-quality visuals and intuitive navigation to enhance the user experience.",
+            "seoStrategy": "Implemented keyword research targeting dining and restaurant-related searches to improve search engine visibility. Structured the website for better crawlability and engagement.",
+            "collaboration": "Worked with the client to refine content, ensuring alignment with their vision and brand ethos. Incorporated feedback during multiple design iterations.",
+            "challenges": "Designing a visually rich site without compromising performance required optimization techniques for images and animations."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "reservations": "Integrated a booking system to streamline table reservations.",
+            "responsiveDesign": "Built a fully responsive website to ensure accessibility across devices.",
+            "technologyStack": "Developed with Next.js for server-side rendering, styled with Tailwind CSS, and deployed on Vercel for high performance."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "The website effectively captures Yamas’ brand identity and has facilitated increased user engagement with reservations and inquiries.",
+            "clientFeedback": "The client praised the website's modern design and ease of use, noting its alignment with their brand vision.",
+            "analytics": "Initial analytics indicate strong user interaction and low bounce rates, showcasing its usability and effectiveness."
+        },
+        "testimonial": "Client testimonial placeholder"
     }
 ]

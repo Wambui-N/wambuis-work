@@ -1,15 +1,27 @@
-import Link from 'next/link'
-import React from 'react'
+"use client";
 
-interface inlineLinkProp {
-    href: string;
-    link: string;
+import Link from "next/link";
+import React from "react";
+
+interface InlineLinkProps {
+  href: string;
+  link: string;
+  className?: string;
 }
 
-const inlineLink = ({href, link}: inlineLinkProp) => {
+const InlineLink: React.FC<InlineLinkProps> = ({
+  href,
+  link,
+  className = "",
+}) => {
   return (
-    <Link className='border-b border-black' href={href}>{link}</Link>
-  )
-}
+    <Link
+      href={href}
+      className={`hover: border-b hover:border-b-2 border-black transition-all duration-300 ${className} `}
+    >
+      {link}
+    </Link>
+  );
+};
 
-export default inlineLink
+export default InlineLink;
