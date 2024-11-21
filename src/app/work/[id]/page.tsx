@@ -7,14 +7,14 @@ import Hero from "@/components/ui/Hero";
 import ProjectCard from "@/components/ui/ProjectCard";
 
 interface CaseStudyPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-const CaseStudyPage: React.FC<CaseStudyPageProps> = ({ params }) => {
+const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
   // Filter the project based on the provided id
-  const project = projects.find((p) => p.id.toString() === params.id);
+  const project = projects.find(async (p) => p.id.toString() === (await params).id);
 
   // Check if the project exists
   if (!project) {
