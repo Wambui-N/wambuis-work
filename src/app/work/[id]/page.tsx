@@ -6,7 +6,13 @@ import projects from "@/data/projects.json";
 import Hero from "@/components/ui/Hero";
 import ProjectCard from "@/components/ui/ProjectCard";
 
-const CaseStudyPage = ({ params }: { params: { id: string } }) => {
+interface CaseStudyPageProps {
+  params: {
+    id: string;
+  };
+}
+
+const CaseStudyPage: React.FC<CaseStudyPageProps> = ({ params }) => {
   // Filter the project based on the provided id
   const project = projects.find((p) => p.id.toString() === params.id);
 
