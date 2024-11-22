@@ -19,16 +19,14 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, children }) => {
   return (
     <div className="border-b border-neutral-200">
       <motion.button
-        className="flex w-full items-center justify-between py-4 text-left font-medium text-neutral-900 focus:outline-none"
+        className="flex w-full items-center justify-between py-4 text-left font-medium text-black focus:outline-none"
         onClick={toggleAccordion}
-        whileHover={{ opacity: 0.8 }}
-        whileTap={{ opacity: 0.6 }}
       >
-        <span>{title}</span>
+        <span className="text-4xl font-semibold">{title}</span>
         <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.2 }}
-          className="text-neutral-600"
+          className="text-black"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -85,12 +83,12 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, children }) => {
 
 const ServicesAccordion = () => {
   return (
-    <div className="mx-auto max-w-4xl">
+    <div className="mx-auto w-full">
       {services.map((service, index) => {
         const benefits = service.benefits;
         return (
           <AccordionItem key={service.id} title={service.title}>
-            <div className="flex flex-row gap-12 text-neutral-700">
+            <div className="flex flex-row gap-12 text-black">
               <p className="basis-2/3">{service.description}</p>
               <ul className="basis-1/3 list-inside list-disc">
                 {benefits.map((benefit, benefitIndex) => (

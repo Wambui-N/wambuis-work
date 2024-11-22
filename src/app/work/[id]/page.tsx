@@ -13,8 +13,11 @@ interface CaseStudyPageProps {
 }
 
 const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
+  // Resolve the params promise
+  const { id } = await params; // Extract id after resolving the promise
+
   // Filter the project based on the provided id
-  const project = projects.find(async (p) => p.id.toString() === (await params).id);
+  const project = projects.find((p) => p.id.toString() === id); // Use the resolved id
 
   // Check if the project exists
   if (!project) {
