@@ -60,7 +60,7 @@ const ProjectCard = ({ company, tags, href, image }: ProjectCardProps) => {
         <div className="space-y-2 mt-2 relative">
           <div className="relative inline-block">
             <motion.p 
-              className="text-base font-semibold uppercase relative z-10"
+              className="text-base font-semibold uppercase relative"
               initial={{ opacity: 0, x: -10 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ 
