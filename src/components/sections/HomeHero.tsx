@@ -6,7 +6,7 @@ const HomeHero = () => {
   return (
     <div>
       <Hero
-        children={<div className="flex flex-col justify-center gap-4 w-1/2 h-[90vh]">
+        children={<div className="flex flex-col justify-center gap-4 lg:w-1/2 w-full lg:h-[90vh] h-auto">
             <h1>
               Hello,
               <br /> I&apos;m Wambui.

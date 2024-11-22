@@ -22,7 +22,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, children }) => {
         className="flex w-full items-center justify-between py-4 text-left font-medium text-black focus:outline-none"
         onClick={toggleAccordion}
       >
-        <span className="text-4xl font-semibold">{title}</span>
+        <span className="text-2xl font-semibold">{title}</span>
         <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.2 }}
@@ -88,9 +88,9 @@ const ServicesAccordion = () => {
         const benefits = service.benefits;
         return (
           <AccordionItem key={service.id} title={service.title}>
-            <div className="flex flex-row gap-12 text-black">
-              <p className="basis-2/3">{service.description}</p>
-              <ul className="basis-1/3 list-inside list-disc">
+            <div className="flex md:flex-row flex-col md:gap-12 gap-6 text-black">
+              <p className="md:basis-2/3">{service.description}</p>
+              <ul className="md:basis-1/3 py-2 text-sm list-inside list-disc">
                 {benefits.map((benefit, benefitIndex) => (
                   <motion.li
                     key={benefitIndex}

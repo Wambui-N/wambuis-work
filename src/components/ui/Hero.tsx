@@ -6,7 +6,7 @@ interface HeroProps {
 
 const Hero = ({ children }: HeroProps) => {
   return (
-    <div className="min-h-[50vh] w-full flex justify-center items-center">
+    <div className="lg:min-h-[50vh] h-auto py-8 w-full flex md:justify-center justify-start items-center">
       {children}
     </div>
   );

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   body {
     @apply font-futura text-black bg-white antialiased responsive;
@@ -10,10 +14,10 @@
     @apply font-semibold text-black
   }
   h1 {
-    @apply lg:text-8xl text-7xl pb-2;
+    @apply lg:text-8xl md:text-7xl text-5xl pb-2;
   }
   h4 {
-    @apply text-4xl;
+    @apply md:text-4xl text-2xl;
   }
   h6 {
     @apply text-2xl;

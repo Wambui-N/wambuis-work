@@ -3,8 +3,8 @@ import ProjectCard from "../ui/ProjectCard";
 
 const Projects = () => {
   return (
-    <div>
-      <div className="grid grid-cols-2 gap-x-12 gap-y-6">
+    <div id="work">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-x-12 gap-y-6">
         {projects.map((project) => {
           const tags = project.category.split(",").join(" —");
           return (

@@ -13,7 +13,7 @@ export default function About() {
         }
       />
       <div className="w-full flex justify-center">
-        <div className="w-3/5">
+        <div className="md:w-3/5 w-full">
           <AboutSection />
         </div>
       </div>

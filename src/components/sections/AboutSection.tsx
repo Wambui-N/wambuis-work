@@ -3,7 +3,7 @@ import InlineLink from "../ui/inlineLink";
 
 const AboutSection = () => {
   return (
-    <div className="max-w-5xl mx-auto px-6 py-12 space-y-12">
+    <div className="max-w-5xl mx-auto md:px-6 px-0 py-12 space-y-12">
       <Section
         title="Curiosity Fuels My Work"
         content={[

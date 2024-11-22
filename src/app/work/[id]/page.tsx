@@ -32,13 +32,13 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
       </Head>
 
       <main className="">
-        <div className="container mx-auto max-w-4xl px-4 py-12">
+        <div className="container mx-auto md:max-w-4xl md:px-4 px-0 py-12">
           {/* Hero Section */}
           <Hero
             children={
-              <section className="flex h-auto w-4/5 flex-col justify-center gap-4">
+              <section className="flex h-auto lg:w-4/5 w-full flex-col justify-center gap-4">
                 <h4 className="">{project.title}</h4>
-                <div className="mb-4 flex items-center space-x-4">
+                <div className="mb-4 flex flex-row items-center space-x-4">
                   <span className="rounded-full bg-gray-100 px-3 py-1 text-sm">
                     {project.category}
                   </span>
