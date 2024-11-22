@@ -5,6 +5,7 @@ import { ExternalLink } from "lucide-react";
 import projects from "@/data/projects.json";
 import Hero from "@/components/ui/Hero";
 import ProjectCard from "@/components/ui/ProjectCard";
+import Image from "next/image";
 
 interface CaseStudyPageProps {
   params: Promise<{
@@ -32,11 +33,11 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
       </Head>
 
       <main className="">
-        <div className="container mx-auto md:max-w-4xl md:px-4 px-0 py-12">
+        <div className="container mx-auto px-0 py-12 md:max-w-4xl md:px-4">
           {/* Hero Section */}
           <Hero
             children={
-              <section className="flex h-auto lg:w-4/5 w-full flex-col justify-center gap-4">
+              <section className="flex h-auto w-full flex-col justify-center gap-4 lg:w-4/5">
                 <h4 className="">{project.title}</h4>
                 <div className="mb-4 flex flex-row items-center space-x-4">
                   <span className="rounded-full bg-gray-100 px-3 py-1 text-sm">
@@ -61,8 +62,16 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
           />
 
           {/* Image/Video Placeholder 1 */}
-          <section className="mb-16 flex h-96 items-center justify-center bg-gray-100">
-            <p className="text-gray-500">Website Design & Layout Screenshot</p>
+          <section className="mb-16 flex h-auto items-center justify-center bg-gray-100">
+            {/* <p className="text-gray-500">Website Design & Layout Screenshot</p> */}
+            <Image
+              className="h-full w-full object-contain"
+              src={project.showcase}
+              alt={`${project.title} Showcase`}
+              width={1280}
+              height={800}
+              quality={100}
+            />
           </section>
 
           {/* Project Overview */}
@@ -108,8 +117,16 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
           </section>
 
           {/* Image/Video Placeholder 2 */}
-          <section className="mb-16 flex h-96 items-center justify-center bg-gray-100">
-            <p className="text-gray-500">Development & Integration Process</p>
+          <section className="mb-16 flex h-auto items-center justify-center bg-gray-100">
+            {/* <p className="text-gray-500">Website Design & Layout Screenshot</p> */}
+            <Image
+              className="h-full w-full object-contain"
+              src={project.displayIntergration}
+              alt={`${project.title} Intergration`}
+              width={1280}
+              height={800}
+              quality={100}
+            />
           </section>
 
           {/* Functionalities & Automations */}
@@ -135,10 +152,10 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
             </div>
           </section>
 
-          {/* Image/Video Placeholder 3 */}
+          {/* Image/Video Placeholder 3
           <section className="mb-16 flex h-96 items-center justify-center bg-gray-100">
             <p className="text-gray-500">WhatsApp Integration & Features</p>
-          </section>
+          </section> */}
 
           {/* Outcome & Results */}
           <section className="mb-16">
