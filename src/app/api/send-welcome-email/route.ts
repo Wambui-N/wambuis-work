@@ -48,8 +48,8 @@ export async function POST(req: Request) {
     ]);
 
     return NextResponse.json({ message: 'Emails sent successfully!' }, { status: 200 });
-  } catch (error) {
-    console.error('Error sending emails:', error);
-    return NextResponse.json({ error: 'Failed to send emails' }, { status: 500 });
+  } catch (error: any) {
+    console.error('Error sending emails:', error.message || error);
+    return NextResponse.json({ error: 'Failed to send emails', details: error.message }, { status: 500 });
   }
 }
