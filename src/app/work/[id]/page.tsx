@@ -57,7 +57,7 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
 
           {/* Showcase Image */}
           {project.showcase && (
-            <section className="mb-16 flex h-auto items-center justify-center bg-gray-100">
+            <section className="mb-16 flex h-auto items-center justify-center bg-gray-50 rounded-xl overflow-hidden shadow-sm">
               <Image
                 className="h-full w-full object-contain"
                 src={project.showcase}
@@ -71,21 +71,24 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
 
           {/* Project Overview */}
           {project.projectOverview && (
-            <section className="mb-16">
-              <h2 className="mb-6 text-3xl font-semibold">Project Overview</h2>
-              <div className="grid gap-8 md:grid-cols-2">
-                {project.projectOverview.projectGoal && (
-                  <div>
-                    <h3 className="mb-4 text-xl font-medium">Project Goal</h3>
-                    <p className="">{project.projectOverview.projectGoal}</p>
-                  </div>
-                )}
-                {project.projectOverview.challenges && (
-                  <div>
-                    <h3 className="mb-4 text-xl font-medium">Challenges</h3>
-                    <p className="">{project.projectOverview.challenges}</p>
-                  </div>
-                )}
+            <section className="mb-16 relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-50 to-transparent opacity-50 rounded-xl"></div>
+              <div className="relative p-8 rounded-xl">
+                <h2 className="mb-6 text-3xl font-semibold">Project Overview</h2>
+                <div className="grid gap-8 md:grid-cols-2">
+                  {project.projectOverview.projectGoal && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">Project Goal</h3>
+                      <p className="">{project.projectOverview.projectGoal}</p>
+                    </div>
+                  )}
+                  {project.projectOverview.challenges && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">Challenges</h3>
+                      <p className="">{project.projectOverview.challenges}</p>
+                    </div>
+                  )}
+                </div>
               </div>
             </section>
           )}
@@ -93,43 +96,45 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
           {/* Process */}
           {project.process && (
             <section className="mb-16">
-              <h2 className="mb-6 text-3xl font-semibold">
-                Design & Development Process
-              </h2>
-              <div className="space-y-8">
-                {project.process.designApproach && (
-                  <div>
-                    <h3 className="mb-4 text-xl font-medium">Design Approach</h3>
-                    <p className="">{project.process.designApproach}</p>
-                  </div>
-                )}
-                {project.process.seoStrategy && (
-                  <div>
-                    <h3 className="mb-4 text-xl font-medium">SEO Strategy</h3>
-                    <p className="">{project.process.seoStrategy}</p>
-                  </div>
-                )}
-                {project.process.collaboration && (
-                  <div>
-                    <h3 className="mb-4 text-xl font-medium">Collaboration</h3>
-                    <p className="">{project.process.collaboration}</p>
-                  </div>
-                )}
-                {project.process.challenges && (
-                  <div>
-                    <h3 className="mb-4 text-xl font-medium">
-                      Development Challenges
-                    </h3>
-                    <p className="">{project.process.challenges}</p>
-                  </div>
-                )}
+              <div className="border-t border-gray-200 pt-16">
+                <h2 className="mb-6 text-3xl font-semibold">
+                  Design & Development Process
+                </h2>
+                <div className="space-y-8">
+                  {project.process.designApproach && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">Design Approach</h3>
+                      <p className="">{project.process.designApproach}</p>
+                    </div>
+                  )}
+                  {project.process.seoStrategy && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">SEO Strategy</h3>
+                      <p className="">{project.process.seoStrategy}</p>
+                    </div>
+                  )}
+                  {project.process.collaboration && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">Collaboration</h3>
+                      <p className="">{project.process.collaboration}</p>
+                    </div>
+                  )}
+                  {project.process.challenges && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">
+                        Development Challenges
+                      </h3>
+                      <p className="">{project.process.challenges}</p>
+                    </div>
+                  )}
+                </div>
               </div>
             </section>
           )}
 
           {/* Integration Image */}
           {project.displayIntergration && (
-            <section className="mb-16 flex h-auto items-center justify-center bg-gray-100">
+            <section className="mb-16 flex h-auto items-center justify-center bg-gray-50 rounded-xl overflow-hidden shadow-sm">
               <Image
                 className="h-full w-full object-contain"
                 src={project.displayIntergration}
@@ -143,31 +148,34 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
 
           {/* Functionalities & Automations */}
           {project.functionalitiesAndAutomationsAdded && (
-            <section className="mb-16">
-              <h2 className="mb-6 text-3xl font-semibold">Key Functionalities</h2>
-              <div className="grid gap-6 md:grid-cols-3">
-                {project.functionalitiesAndAutomationsAdded.leadCapture && (
-                  <div className="">
-                    <h3 className="mb-4 text-xl font-medium">Lead Capture</h3>
-                    <p>{project.functionalitiesAndAutomationsAdded.leadCapture}</p>
-                  </div>
-                )}
-                {project.functionalitiesAndAutomationsAdded.responsiveDesign && (
-                  <div className="">
-                    <h3 className="mb-4 text-xl font-medium">Responsive Design</h3>
-                    <p>
-                      {project.functionalitiesAndAutomationsAdded.responsiveDesign}
-                    </p>
-                  </div>
-                )}
-                {project.functionalitiesAndAutomationsAdded.technologyStack && (
-                  <div className="">
-                    <h3 className="mb-4 text-xl font-medium">Tech Stack</h3>
-                    <p>
-                      {project.functionalitiesAndAutomationsAdded.technologyStack}
-                    </p>
-                  </div>
-                )}
+            <section className="mb-16 relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-50 to-transparent opacity-50 rounded-xl"></div>
+              <div className="relative p-8 rounded-xl">
+                <h2 className="mb-6 text-3xl font-semibold">Key Functionalities</h2>
+                <div className="grid gap-6 md:grid-cols-3">
+                  {project.functionalitiesAndAutomationsAdded.leadCapture && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">Lead Capture</h3>
+                      <p>{project.functionalitiesAndAutomationsAdded.leadCapture}</p>
+                    </div>
+                  )}
+                  {project.functionalitiesAndAutomationsAdded.responsiveDesign && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">Responsive Design</h3>
+                      <p>
+                        {project.functionalitiesAndAutomationsAdded.responsiveDesign}
+                      </p>
+                    </div>
+                  )}
+                  {project.functionalitiesAndAutomationsAdded.technologyStack && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">Tech Stack</h3>
+                      <p>
+                        {project.functionalitiesAndAutomationsAdded.technologyStack}
+                      </p>
+                    </div>
+                  )}
+                </div>
               </div>
             </section>
           )}
@@ -175,44 +183,46 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
           {/* Outcome & Results */}
           {project.outcomeAndResults && (
             <section className="mb-16">
-              <h2 className="mb-6 text-3xl font-semibold">Outcome & Results</h2>
-              <div className="space-y-8">
-                {project.outcomeAndResults.successMetrics && (
-                  <div>
-                    <h3 className="mb-4 text-xl font-medium">Success Metrics</h3>
-                    <p className="">{project.outcomeAndResults.successMetrics}</p>
-                  </div>
-                )}
-                {project.outcomeAndResults.analytics && (
-                  <div>
-                    <h3 className="mb-4 text-xl font-medium">
-                      Analytics & Future Potential
-                    </h3>
-                    <p className="">{project.outcomeAndResults.analytics}</p>
-                  </div>
-                )}
+              <div className="border-t border-gray-200 pt-16">
+                <h2 className="mb-6 text-3xl font-semibold">Outcome & Results</h2>
+                <div className="space-y-8">
+                  {project.outcomeAndResults.successMetrics && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">Success Metrics</h3>
+                      <p className="">{project.outcomeAndResults.successMetrics}</p>
+                    </div>
+                  )}
+                  {project.outcomeAndResults.analytics && (
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h3 className="mb-4 text-xl font-medium">
+                        Analytics & Future Potential
+                      </h3>
+                      <p className="">{project.outcomeAndResults.analytics}</p>
+                    </div>
+                  )}
+                </div>
               </div>
             </section>
           )}
 
           {/* Project Details */}
-          <section className="rounded-lg bg-black/5 p-8">
+          <section className="rounded-xl bg-gradient-to-br from-gray-50 to-white p-8 shadow-sm">
             <h2 className="mb-6 text-2xl font-semibold">Project Details</h2>
             <div className="grid gap-6 md:grid-cols-3">
               {project.category && (
-                <div>
+                <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="mb-4 text-xl font-medium">Category</h3>
                   <p className="text-gray-700">{project.category}</p>
                 </div>
               )}
               {project.industry && (
-                <div>
+                <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="mb-4 text-xl font-medium">Industry</h3>
                   <p className="text-gray-700">{project.industry}</p>
                 </div>
               )}
               {project.link && (
-                <div>
+                <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="mb-4 text-xl font-medium">Project Link</h3>
                   <Link
                     href={project.link}
