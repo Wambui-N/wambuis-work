@@ -6,15 +6,19 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FormPopup from "@/components/layout/FormPopup";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const satoshiRegular = localFont({
+  src: "./fonts/Satoshi-Regular.otf",
+  variable: "--font-satoshi-regular",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const satoshiMedium = localFont({
+  src: "./fonts/Satoshi-Medium.otf",
+  variable: "--font-satoshi-medium",
+});
+
+const hoperBegin = localFont({
+  src: "./fonts/hoperbegin.otf",
+  variable: "--font-hoper",
 });
 
 export const metadata: Metadata = {
@@ -40,7 +44,7 @@ export default function RootLayout({
         />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${satoshiRegular.variable} ${satoshiMedium.variable} ${hoperBegin.variable} antialiased`}
       >
         <Navbar />
         {children}

@@ -45,7 +45,7 @@ const ProjectCard = ({ company, tags, href, image }: ProjectCardProps) => {
             src={image}
             alt="alt"
             width={1000}
-            height={1000}
+            height={800}
             animate={{ 
               scale: isHovered ? 1.02 : 1,
               transition: { 

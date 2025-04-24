@@ -9,8 +9,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        hoper: ['Hoper Begin', 'sans-serif'],
-        futura: ['Futura Std', 'sans-serif'],
+        hoper: ['var(--font-hoper)', 'sans-serif'],
+        'satoshi-regular': ['var(--font-satoshi-regular)', 'sans-serif'],
+        'satoshi-medium': ['var(--font-satoshi-medium)', 'sans-serif'],
       },
       colors: {
         transparent: "transparent",

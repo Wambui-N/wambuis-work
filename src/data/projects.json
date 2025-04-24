@@ -15,18 +15,18 @@
             "challenges": "Prior to this project, Vicwa had no digital presence. The primary challenge was to create a user-friendly site from scratch that effectively communicated his offerings while capturing leads directly."
         },
         "process": {
-            "designApproach": "I started by understanding the client’s needs and target audience. Given that the business focuses on plumbing supplies, I opted for a clean and straightforward design with a modern aesthetic. The color palette was kept neutral and professional to reflect the client's industry. I utilized Tailwind CSS to maintain consistency in design elements and responsiveness across devices.",
-            "seoStrategy": "To ensure Vicwa’s website would rank well in search engines, I conducted keyword research related to plumbing supplies and services. I implemented on-page SEO optimizations like meta tags, alt text for images, and a site structure optimized for search crawlers.",
+            "designApproach": "I started by understanding the client's needs and target audience. Given that the business focuses on plumbing supplies, I opted for a clean and straightforward design with a modern aesthetic. The color palette was kept neutral and professional to reflect the client's industry. I utilized Tailwind CSS to maintain consistency in design elements and responsiveness across devices.",
+            "seoStrategy": "To ensure Vicwa's website would rank well in search engines, I conducted keyword research related to plumbing supplies and services. I implemented on-page SEO optimizations like meta tags, alt text for images, and a site structure optimized for search crawlers.",
             "collaboration": "Throughout the project, I collaborated with Vicwa to refine the content and ensure it aligned with his brand vision. We focused on creating concise service descriptions and a contact section that would encourage potential customers to reach out.",
             "challenges": "One of the challenges was integrating a lead capture system that would be simple yet effective. The solution was to connect a contact form directly to WhatsApp for instant communication, which required some custom coding to streamline the integration."
         },
         "functionalitiesAndAutomationsAdded": {
-            "leadCapture": "Integrated a custom form that sends leads directly to the client’s WhatsApp, ensuring immediate notifications for inquiries.",
+            "leadCapture": "Integrated a custom form that sends leads directly to the client's WhatsApp, ensuring immediate notifications for inquiries.",
             "responsiveDesign": "The website was built using Next.js, hosted on Vercel, with a focus on fast loading speeds and a smooth user experience.",
             "technologyStack": "Next.js, Tailwind CSS, and Vercel were used for development and deployment."
         },
         "outcomeAndResults": {
-            "successMetrics": "As the site was launched recently, it’s still too early to measure significant metrics.",
+            "successMetrics": "As the site was launched recently, it's still too early to measure significant metrics.",
             "analytics": "The website is fully optimized for SEO, which sets a solid foundation for future growth in organic traffic and customer engagement."
         },
         "testimonial": "clients testimonial"
@@ -41,16 +41,16 @@
         "category": "Web Design, SEO",
         "description": "I designed and developed a sleek, SEO-optimized website for African Plains Conservation Trust, an NGO dedicated to preserving Kenya's private and community lands that are vital to wildlife survival and the well-being of local communities.",
         "industry": "NGO",
-        "link": "https://apct.vercel.app/",
+        "link": "https://africanplains.org/",
         "projectOverview": {
             "projectGoal": "The client wanted a professional website to showcase their work, establish credibility, and make it easier to contact them.",
             "challenges": "African Plains Conservation Trust had no existing online presence. The main challenge was building a website that effectively communicated their work while ensuring seamless client interactions."
         },
         "process": {
-            "designApproach": "I adopted a professional and modern design approach, focusing on clean layouts and intuitive navigation to appeal to African Plains Conservation Trust’s target audience. Tailwind CSS was used to ensure design consistency and responsiveness.",
+            "designApproach": "I adopted a professional and modern design approach, focusing on clean layouts and intuitive navigation to appeal to African Plains Conservation Trust's target audience. Tailwind CSS was used to ensure design consistency and responsiveness.",
             "seoStrategy": "Comprehensive keyword research was conducted to optimize the website for consultancy and training-related terms. On-page SEO strategies, including meta tags, structured data, and optimized images, were implemented to enhance visibility.",
             "collaboration": "Collaborated closely with APCT to create content that aligned with their brand and clearly communicated their services. Their feedback guided design iterations to ensure the final product met their expectations.",
-            "challenges": "Integrating an effective contact system that aligned with the client’s preferred methods of communication was a key challenge, which was resolved through custom form and WhatsApp integration."
+            "challenges": "Integrating an effective contact system that aligned with the client's preferred methods of communication was a key challenge, which was resolved through custom form and WhatsApp integration."
         },
         "functionalitiesAndAutomationsAdded": {
             "leadCapture": "Integrated a contact form with automated email notifications and WhatsApp connectivity to ensure inquiries reached the client instantly.",
@@ -60,6 +60,166 @@
         "outcomeAndResults": {
             "successMetrics": "The website has positioned APCT with a professional online presence. Though recently launched, it has already streamlined client inquiries and provided a foundation for further business growth.",
             "analytics": "SEO groundwork has been laid, with optimizations in place to drive organic traffic over time."
+        },
+        "testimonial": "Client testimonial placeholder"
+    },
+    {
+        "id": 3,
+        "title": "Frontline Consulting",
+        "slug": "frontline",
+        "image": "/frontline-image.png",
+        "showcase": "/frontline-showcase.png",
+        "displayIntergration": "/frontline-integration.png",
+        "category": "Web Design, SEO",
+        "description": "I developed a professional website for Frontline Consulting, a leading environmental and tourism planning consultancy firm in Kenya. The site effectively showcases their expertise in conservation planning, project management, and technical writing services.",
+        "industry": "Consulting",
+        "link": "https://www.frontline-consulting.co.ke/",
+        "projectOverview": {
+            "projectGoal": "To create a professional online presence that highlights Frontline Consulting's expertise in environmental conservation and tourism development projects.",
+            "challenges": "Effectively communicating complex consulting services in an accessible way while maintaining professional credibility."
+        },
+        "process": {
+            "designApproach": "Adopted a clean, professional design that reflects the company's expertise in environmental and tourism consulting. Focused on clear service presentation and easy navigation.",
+            "seoStrategy": "Implemented comprehensive SEO strategies targeting environmental consulting and tourism development keywords.",
+            "collaboration": "Worked closely with the client to accurately represent their services and expertise.",
+            "challenges": "Balancing technical content with user-friendly presentation."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "leadCapture": "Integrated contact forms and service inquiry systems.",
+            "responsiveDesign": "Fully responsive design ensuring optimal viewing across all devices.",
+            "technologyStack": "Modern web technologies for optimal performance."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "Enhanced online presence and lead generation capabilities.",
+            "analytics": "Improved search visibility for environmental consulting services."
+        },
+        "testimonial": "Client testimonial placeholder"
+    },
+    {
+        "id": 4,
+        "title": "Rawhew Ranch Kenya",
+        "slug": "rawhew",
+        "image": "/rawhew-image.png",
+        "showcase": "/rawhew-showcase.png",
+        "displayIntergration": "",
+        "category": "Web Design, SEO",
+        "description": "I created a comprehensive website for Rawhew Ranch, a premier camping and outdoor adventure destination in Naivasha, Kenya. The site effectively showcases their unique offerings including camping, cycling, horse riding, and team building activities.",
+        "industry": "Tourism",
+        "link": "https://www.rawhewranchkenya.com/",
+        "projectOverview": {
+            "projectGoal": "To develop an engaging website that highlights Rawhew Ranch's unique outdoor experiences and facilitates bookings.",
+            "challenges": "Effectively presenting diverse activities and amenities while maintaining a cohesive user experience."
+        },
+        "process": {
+            "designApproach": "Created an immersive design that captures the essence of outdoor adventure and natural beauty.",
+            "seoStrategy": "Implemented SEO strategies targeting tourism and outdoor activities in Kenya.",
+            "collaboration": "Worked closely with the ranch management to accurately represent their offerings.",
+            "challenges": "Balancing comprehensive information with engaging user experience."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "leadCapture": "Integrated booking and inquiry systems.",
+            "responsiveDesign": "Fully responsive design optimized for all devices.",
+            "technologyStack": "Modern web technologies for optimal performance."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "Improved online visibility and booking capabilities.",
+            "analytics": "Enhanced search presence for tourism activities in Naivasha."
+        },
+        "testimonial": "Client testimonial placeholder"
+    },
+    {
+        "id": 5,
+        "title": "Yamas Restaurant",
+        "slug": "yamas",
+        "image": "/yamas-image.png",
+        "showcase": "/yamas-showcase.png",
+        "displayIntergration": "/yamas-integration.png",
+        "category": "Web Design, SEO",
+        "description": "I developed a modern, elegant website for Yamas Restaurant, showcasing their unique dining experience. The site features a clean design that highlights their menu and reservation system.",
+        "industry": "Restaurant",
+        "link": "https://yamas-seven.vercel.app/",
+        "projectOverview": {
+            "projectGoal": "To create an elegant online presence that reflects the restaurant's sophisticated dining experience.",
+            "challenges": "Creating an engaging design that effectively presents the restaurant's atmosphere and menu."
+        },
+        "process": {
+            "designApproach": "Adopted a minimalist, elegant design that reflects the restaurant's sophisticated atmosphere.",
+            "seoStrategy": "Implemented SEO strategies targeting local dining and restaurant keywords.",
+            "collaboration": "Worked closely with the restaurant to capture their unique brand identity.",
+            "challenges": "Balancing aesthetic appeal with functional reservation system."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "leadCapture": "Integrated reservation and contact systems.",
+            "responsiveDesign": "Fully responsive design for optimal viewing on all devices.",
+            "technologyStack": "Modern web technologies for optimal performance."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "Improved online presence and reservation capabilities.",
+            "analytics": "Enhanced search visibility for local dining options."
+        },
+        "testimonial": "Client testimonial placeholder"
+    },
+    {
+        "id": 6,
+        "title": "Xora SaaS",
+        "slug": "xora",
+        "image": "/xora-image.png",
+        "showcase": "/xora-showcase.png",
+        "displayIntergration": "",
+        "category": "Web Design, SEO",
+        "description": "I created a modern SaaS platform website for Xora, featuring their AI-powered video editing solutions. The site effectively communicates their innovative technology and service offerings.",
+        "industry": "Technology",
+        "link": "https://xora-saas.vercel.app/",
+        "projectOverview": {
+            "projectGoal": "To develop a professional website that showcases Xora's AI video editing capabilities and service offerings.",
+            "challenges": "Effectively presenting complex AI technology in an accessible way."
+        },
+        "process": {
+            "designApproach": "Created a modern, tech-forward design that reflects the innovative nature of the platform.",
+            "seoStrategy": "Implemented comprehensive SEO strategies targeting AI video editing and SaaS solutions.",
+            "collaboration": "Worked closely with the development team to accurately represent their technology.",
+            "challenges": "Balancing technical information with user-friendly presentation."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "leadCapture": "Integrated signup and contact systems.",
+            "responsiveDesign": "Fully responsive design optimized for all devices.",
+            "technologyStack": "Modern web technologies for optimal performance."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "Improved online presence and user acquisition.",
+            "analytics": "Enhanced search visibility for AI video editing solutions."
+        },
+        "testimonial": "Client testimonial placeholder"
+    },
+    {
+        "id": 7,
+        "title": "Dorothea Lange",
+        "slug": "dorothea",
+        "image": "/dorothea-image.png",
+        "showcase": "/dorothea-showcase.png",
+        "displayIntergration": "",
+        "category": "Web Design, SEO",
+        "description": "I developed a tribute website for Dorothea Lange, showcasing her iconic photography work. The site features a gallery of her most famous images and provides historical context for her contributions to documentary photography.",
+        "industry": "Art",
+        "link": "https://dorothea-lange.vercel.app/",
+        "projectOverview": {
+            "projectGoal": "To create an elegant online gallery that honors Dorothea Lange's photographic legacy.",
+            "challenges": "Effectively presenting historical photography in a modern digital format."
+        },
+        "process": {
+            "designApproach": "Adopted a minimalist design that puts focus on the photography while providing historical context.",
+            "seoStrategy": "Implemented SEO strategies targeting documentary photography and historical photography.",
+            "collaboration": "Worked with photography experts to ensure accurate representation of Lange's work.",
+            "challenges": "Balancing historical content with modern web design principles."
+        },
+        "functionalitiesAndAutomationsAdded": {
+            "leadCapture": "Integrated contact and inquiry systems.",
+            "responsiveDesign": "Fully responsive design optimized for all devices.",
+            "technologyStack": "Modern web technologies for optimal performance."
+        },
+        "outcomeAndResults": {
+            "successMetrics": "Created an engaging online tribute to Dorothea Lange's work.",
+            "analytics": "Enhanced visibility for documentary photography resources."
         },
         "testimonial": "Client testimonial placeholder"
     }
