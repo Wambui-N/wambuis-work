@@ -1,4 +1,5 @@
 import React from "react";
+import { Metadata } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
@@ -11,6 +12,46 @@ interface CaseStudyPageProps {
   params: Promise<{
     id: string;
   }>;
+}
+
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const project = projects.find((p) => p.id.toString() === params.id);
+  
+  if (!project) {
+    return {
+      title: 'Project Not Found',
+      description: 'The requested project could not be found.',
+    };
+  }
+
+  return {
+    title: `${project.title} | Case Study`,
+    description: project.description,
+    keywords: [project.category, project.industry, 'web development', 'case study', 'portfolio'],
+    openGraph: {
+      title: `${project.title} | Case Study`,
+      description: project.description,
+      type: 'article',
+      url: `https://wambuiswork.vercel.app/work/${project.id}`,
+      images: [
+        {
+          url: project.showcase || project.image,
+          width: 1200,
+          height: 630,
+          alt: `${project.title} showcase image`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${project.title} | Case Study`,
+      description: project.description,
+      images: [project.showcase || project.image],
+    },
+    alternates: {
+      canonical: `/work/${project.id}`,
+    },
+  };
 }
 
 const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
@@ -26,6 +67,17 @@ const CaseStudyPage: React.FC<CaseStudyPageProps> = async ({ params }) => {
       <Head>
         <title>{project.title} | Case Study</title>
         <meta name="description" content={project.description} />
+        <meta name="keywords" content={`${project.category}, ${project.industry}, web development, case study, portfolio`} />
+        <meta property="og:title" content={`${project.title} | Case Study`} />
+        <meta property="og:description" content={project.description} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://wambuiswork.vercel.app/work/${project.id}`} />
+        <meta property="og:image" content={project.showcase || project.image} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${project.title} | Case Study`} />
+        <meta name="twitter:description" content={project.description} />
+        <meta name="twitter:image" content={project.showcase || project.image} />
+        <link rel="canonical" href={`https://wambuiswork.vercel.app/work/${project.id}`} />
       </Head>
 
       <main className="">
